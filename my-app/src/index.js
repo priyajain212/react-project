@@ -4,12 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Button from './button';
-import Football from './Football'
+import Football from './Football';
+import TodoList from './todo' ;
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    
-    <Football />
+    <TodoList/>
+    
   </React.StrictMode>
 );
 
