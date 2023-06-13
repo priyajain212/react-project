@@ -6,12 +6,13 @@ import reportWebVitals from './reportWebVitals';
 import Button from './button';
 import Football from './Football';
 import TodoList from './todo' ;
+import Gallery from './apps'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    
-    <TodoList/>
     
+    <Gallery/>
   </React.StrictMode>
 );
 
