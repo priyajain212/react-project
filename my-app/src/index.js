@@ -7,12 +7,13 @@ import Button from './button';
 import Football from './Football';
 import TodoList from './todo' ;
 import Gallery from './apps'
+import Count from './addition'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    
     
-    <Gallery/>
+    <Count/>
   </React.StrictMode>
 );
 
